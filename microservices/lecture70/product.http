@@ -1,12 +1,12 @@
-GET http://localhost:5176/api/products
+GET http://localhost:5142/api/products
 
 ###
 
-GET http://localhost:5176/api/products/2
+GET http://localhost:5142/api/products/2
 
 ###
 
-POST http://localhost:5176/api/products
+POST http://localhost:5142/api/products
 content-type: application/json
 
 {
@@ -17,7 +17,7 @@ content-type: application/json
 
 ###
 
-PUT http://localhost:5176/api/products/3
+PUT http://localhost:5142/api/products/3
 content-type: application/json
 
 {
