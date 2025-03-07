@@ -5,7 +5,7 @@ Start Docker Desktop
 
 >
 Start your minikube cluster
-	minikube start
+minikube start
 
 >
 Interact with your cluster

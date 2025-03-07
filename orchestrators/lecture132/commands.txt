@@ -95,7 +95,7 @@ Open a terminal or command prompt and run the following command to log in to Doc
 
 Enter your Docker Hub username and password when prompted.
 
-Username: mehmetozkaya
+Username: arulmsre
 Password: 
 Login Succeeded
 
@@ -106,7 +106,7 @@ Find the IMAGE ID of your local Docker image by running:
 	docker images
 
 Tag your Docker image with your Docker Hub username and the desired repository name:
-	docker tag productservice mehmetozkaya/productservice:latest
+	docker tag productservice arulmsre/productservice:latest
 
 see tagged image
 	docker images
@@ -114,12 +114,12 @@ see tagged image
 >
 Step 3: Push the Docker image to Docker Hub
 Push the tagged Docker image to your Docker Hub repository:
-	docker push mehmetozkaya/productservice:latest
+	docker push arulmsre/productservice:latest
 
 Check
 	https://hub.docker.com/
 See
-	https://hub.docker.com/repository/docker/mehmetozkaya/productservice/general
+	https://hub.docker.com/repository/docker/arulmsre/productservice/general
 
 
 -----
